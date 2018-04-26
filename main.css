@@ -15,6 +15,23 @@ p.about-me {
     color: rgb(121, 121, 121);
 }
 
+p.img-description {
+  font-size: 15px;
+  color: rgb(121, 121, 121);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p.expertise_description {
+  font-size: 15px;
+  color: rgb(121, 121, 121);
+  padding-left: 0;
+  width: 100%;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 div.hero-content {
     margin-top: 0;
     display: block;
@@ -30,6 +47,14 @@ div.about-me {
   /*margin-right: 5rem;
   margin-left: 5rem;*/
   background-color: #eee;
+}
+
+div.about-me2 {
+  /*margin-top: 5%;*/
+  display: block;
+  /*margin-right: 5rem;
+  margin-left: 5rem;*/
+  background-color: white;
 }
 
 section {
@@ -59,7 +84,7 @@ div.about-me-header {
 
 
 h1 {
-  font-size: 24px;
+  font-size: 33px;
   text-align: center;
   color: black;
   font-weight: bolder;
@@ -74,21 +99,64 @@ div.work {
   background-color: white;
 }
 
-div.work-samples {
-    background-color: white;
+div.contact {
+  background-color: rgb(255,226,110);
+  margin-top: 2.5%;
+}
+
+div.work_samples {
+    background-color: rgb(117, 117, 117);
+    width: 300px;
+    height: 300px;
+    margin-top: 5%;
+}
+
+div.work_samples_row {
+  background-color: white;
+  margin: 0 auto;
+  padding: 0 auto;
+  align-items: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+div.wrapper {
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 div.img {
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
   padding-left: 3%;
   padding-right: 8%;
   width: 80%;
   padding-top: 2%;
   padding-bottom: 8%;
-  margin: 0 auto;
+  margin: 0 auto 5% auto;
   font-size: .9vw;
-  background-color: rgb(191, 191, 191);
+  background-color: #eee;
+}
+
+div.expertise {
+  width: 400px;
+  height: 140px;
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 8%;
+  margin: 0 auto 0 auto;
+  font-size: .9vw;
+}
+
+span.strong {
+  font-weight: 900;
+  color: black;
+}
+
+h1.contact {
+  padding-bottom: 0;
 }
 
 div.white {
