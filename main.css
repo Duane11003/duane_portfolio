@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
 p.about-me {
     height: auto;
     padding-left: 3%;
@@ -10,7 +11,7 @@ p.about-me {
     padding-top: 2%;
     padding-bottom: 8%;
     margin: 0 auto;
-    font-size: .7vw;
+    font-size: 15px;
     color: rgb(121, 121, 121);
 }
 
@@ -36,7 +37,7 @@ section {
 }
 
 h2 {
-  font-size: 1vw;
+  font-size: 18px;
   text-align: center;
   color: black;
   /*padding-top: 6%;*/
@@ -58,10 +59,10 @@ div.about-me-header {
 
 
 h1 {
-  font-size: 1.6vw;
+  font-size: 24px;
   text-align: center;
   color: black;
-  font-weight: 900;
+  font-weight: bolder;
   margin: 2% auto;
   padding-bottom: 1%;
   width: 50%;
@@ -92,4 +93,9 @@ div.img {
 
 div.white {
   background-color: white;
+}
+
+@media screen and (max-width: 768px)
+body {
+  font-size: 14px;
 }
