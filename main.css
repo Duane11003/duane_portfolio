@@ -1,0 +1,95 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p.about-me {
+    height: auto;
+    padding-left: 3%;
+    padding-right: 8%;
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    margin: 0 auto;
+    font-size: .7vw;
+    color: rgb(121, 121, 121);
+}
+
+div.hero-content {
+    margin-top: 0;
+    display: block;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+div.about-me {
+  /*margin-top: 5%;*/
+  display: block;
+  /*margin-right: 5rem;
+  margin-left: 5rem;*/
+  background-color: #eee;
+}
+
+section {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1vw;
+  text-align: center;
+  color: black;
+  /*padding-top: 6%;*/
+}
+
+div.header {
+  /*font-size: 2.5vw;*/
+  text-align: center;
+  color: black;
+  padding-top: 6%;
+  align-content: center;
+  display: block;
+  width: auto;
+}
+
+div.about-me-header {
+  margin-bottom: -2%;
+}
+
+
+h1 {
+  font-size: 1.6vw;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  margin: 2% auto;
+  padding-bottom: 1%;
+  width: 50%;
+  /*border-bottom: 1px solid rgb(191, 191, 191);*/
+  /*padding-top: 6%;*/
+}
+
+div.work {
+  background-color: white;
+}
+
+div.work-samples {
+    background-color: white;
+}
+
+div.img {
+  width: 300px;
+  height: 300px;
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 8%;
+  margin: 0 auto;
+  font-size: .9vw;
+  background-color: rgb(191, 191, 191);
+}
+
+div.white {
+  background-color: white;
+}
