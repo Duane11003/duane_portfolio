@@ -95,6 +95,34 @@ h1 {
   /*padding-top: 6%;*/
 }
 
+h1.hero_header {
+  font-size: 82px;
+  color: white;
+  font-weight: bolder;
+  padding-top: 12%;
+}
+
+h2.hero_header2 {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+h3.hero_header3 {
+  font-size: 15px;
+  color: black;
+  padding: .5%;
+  width: 13%;
+  font-family: helvetica;
+  border-radius: 10px;
+  margin-top: 7%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+  background-color: rgb(255,226,110);
+}
+
 div.work {
   background-color: white;
 }
@@ -166,4 +194,9 @@ div.white {
 @media screen and (max-width: 768px)
 body {
   font-size: 14px;
+}
+
+@media screen and (max-width: 768px)
+h1 {
+  font-size: 20px;
 }
