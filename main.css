@@ -5,29 +5,43 @@ body {
 
 p.about-me {
     height: auto;
-    padding-left: 3%;
-    padding-right: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
     width: 80%;
-    padding-top: 2%;
-    padding-bottom: 8%;
+    padding-top: 1%;
+    padding-bottom: 3%;
     margin: 0 auto;
-    font-size: 15px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.75vh;
     color: rgb(121, 121, 121);
 }
 
 p.img-description {
   font-size: 15px;
   color: rgb(121, 121, 121);
-  padding-left: 10%;
-  padding-right: 10%;
+  /*padding-left: 10%;
+  padding-right: 10%;*/
 }
 
 p.expertise_description {
-  font-size: 15px;
+  font-size: 18px;
   color: rgb(121, 121, 121);
   padding-left: 0;
   width: 100%;
   padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.expertise_header {
+  font-size: 24px;
+  color: rgb(121, 121, 121);
+  padding-left: 0;
+  width: 100%;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 18px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,6 +80,13 @@ h2 {
   text-align: center;
   color: black;
   /*padding-top: 6%;*/
+}
+
+h2.contact_subhead {
+  font-size: 1.75vh;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
 }
 
 div.header {
@@ -125,11 +146,114 @@ h3.hero_header3 {
 
 div.work {
   background-color: white;
+  margin-top: 1%;
 }
+
+/*Professional Expertise Bars Beginning*/
+
+div.skills_bar_photoshop {
+  background-color: rgb(5, 179, 156);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 90%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_indesign {
+  background-color: rgb(5, 179, 156);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 95%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_illustrator {
+  background-color: rgb(5, 179, 156);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 80%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_html {
+  background-color: rgb(243, 146, 8);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 70%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_css {
+  background-color: rgb(243, 146, 8);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 60%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_javascript {
+  background-color: rgb(243, 146, 8);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 50%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_container {
+    background-color: #eee;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+span.percentage {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: lighter;
+}
+
+/*Professional Expertise Bars End*/
 
 div.contact {
   background-color: rgb(255,226,110);
   margin-top: 2.5%;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 50px;
 }
 
 div.work_samples {
@@ -158,7 +282,7 @@ div.img {
   height: 275px;
   padding-left: 3%;
   padding-right: 8%;
-  width: 80%;
+  width: 100%;
   padding-top: 2%;
   padding-bottom: 8%;
   margin: 0 auto 5% auto;
@@ -166,15 +290,16 @@ div.img {
   background-color: #eee;
 }
 
+
 div.expertise {
   width: 400px;
   height: 140px;
-  padding-left: 3%;
-  padding-right: 8%;
-  width: 80%;
+  /*padding-left: 3%;
+  padding-right: 8%;*/
+  width: 100%;
   padding-top: 2%;
   padding-bottom: 8%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 12% auto;
   font-size: .9vw;
 }
 
@@ -191,12 +316,110 @@ div.white {
   background-color: white;
 }
 
-@media screen and (max-width: 768px)
-body {
-  font-size: 14px;
+input.input_text {
+width: 30%;
+margin-top: 1%;
+}
+
+input.input_text_message {
+width: 30%;
+margin-top: 1%;
+height: 150px;
+word-wrap: break-word;
+white-space: pre-wrap;
+resize: auto;
+cursor: text;
+text-align: start;
+}
+
+button.submit_button {
+background-color: rgb(225, 0, 39);
+color: white;
+text-align: center;
+padding: 10px;
+margin: auto;
+font-family: helvetica;
+font-weight: bolder;
+width: 40vw;
+}
+
+textarea {
+  cursor: text;
+  word-wrap: break-word;
+}
+
+div.form_container {
+display: block;
+margin: 40px auto;
+/*padding-left: auto;
+padding-right: auto;*/
+width: 39vw;
+}
+
+input.form_name_content {
+  width: 40vw;
+  margin-top: 10px;
+  border: none;
+  margin-bottom: 15px;
+  outline: none;
+  border-bottom: 1px solid black;
+  background-color: rgb(255,226,110);
+}
+
+textarea.text_message {
+  width: 40vw;
+  margin-top: 3vh;
+  border: none;
+  margin-bottom: 15px;
+  outline: none;
+  border: 1px solid black;
+  background-color: rgb(255,226,110);
+}
+
+div.footer_info {
+    display: block;
+    background-color: #252a30;
+    height: 12vh;
+}
+
+p.footer_text {
+  font-size: 1.15vh;
+  color: gray;
+  padding-top: 2%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+div.social_media {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+a {
+  color: white;
+  background-color: white;
+}
+
+div.container_wrapper1 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 768px)
-h1 {
-  font-size: 20px;
+h2 {
+  font-size: 14px;
 }
