@@ -144,6 +144,18 @@ h3.hero_header3 {
   background-color: rgb(255,226,110);
 }
 
+a.contact_btn {
+  text-decoration: none;
+  color: inherit;
+  background: none;
+}
+
+a.contact_btn_bottom {
+  text-decoration: none;
+  color: inherit;
+  background: none;
+}
+
 div.work {
   background-color: white;
   margin-top: 1%;
@@ -198,7 +210,7 @@ div.skills_bar_html {
   font-size: 15px;
   color: white;
   padding-left: 0.75%;
-  width: 70%;
+  width: 85%;
   font-family: helvetica;
   font-weight: bold;
   border-radius: 10px;
@@ -212,7 +224,7 @@ div.skills_bar_css {
   font-size: 15px;
   color: white;
   padding-left: 0.75%;
-  width: 60%;
+  width: 75%;
   font-family: helvetica;
   font-weight: bold;
   border-radius: 10px;
