@@ -144,6 +144,8 @@ h3.hero_header3 {
   background-color: rgb(255,226,110);
 }
 
+
+
 a.contact_btn {
   text-decoration: none;
   color: inherit;
@@ -175,6 +177,10 @@ div.skills_bar_photoshop {
   padding-top: 0.75%;
   margin-bottom: 2%;
   padding-bottom: 0.75%;
+  animation: Animate-HTML 2s;
+  -webkit-animation: Animate-HTML 2s;
+  -moz-animation: Animate-HTML 2s;
+  -o-animation: Animate-HTML 2s;
 }
 
 div.skills_bar_indesign {
@@ -219,6 +225,13 @@ div.skills_bar_html {
   padding-bottom: 0.75%;
 }
 
+.skills-Animate {
+  position: relative;
+  left: 0;
+  opacity: 0;
+
+}
+
 div.skills_bar_css {
   background-color: rgb(243, 146, 8);
   font-size: 15px;
@@ -256,6 +269,35 @@ div.skills_bar_container {
 span.percentage {
   color: rgba(255, 255, 255, 0.7);
   font-weight: lighter;
+}
+
+/* skills bar animation */
+
+
+@keyframes Animate-HTML {
+    from {
+    width: 250px;
+}
+to {
+    width: 90%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 250px;
+}
+to {
+    width: 90%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 250px;
+}
+to {
+    width: 90%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 250px;
+}
+to {
+    width: 90%}
 }
 
 /*Professional Expertise Bars End*/
