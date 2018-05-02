@@ -387,6 +387,9 @@ div.img {
   background-color: #eee;
 }
 
+div.img_hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
 div.expertise {
   width: 400px;

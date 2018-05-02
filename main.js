@@ -59,6 +59,6 @@ $(window).on("load",function() {
 
 // modify 'body' element so screen turns black
 
-$(".print1").click(function() {
-  console.log("test");
+$(".img").hover(function() {
+  $(this).toggleClass("img_hover");
 });
