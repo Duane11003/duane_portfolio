@@ -177,10 +177,10 @@ div.skills_bar_photoshop {
   padding-top: 0.75%;
   margin-bottom: 2%;
   padding-bottom: 0.75%;
-  animation: Animate-HTML 2s;
+  /*animation: Animate-HTML 2s;
   -webkit-animation: Animate-HTML 2s;
   -moz-animation: Animate-HTML 2s;
-  -o-animation: Animate-HTML 2s;
+  -o-animation: Animate-HTML 2s;*/
 }
 
 div.skills_bar_indesign {
@@ -196,6 +196,49 @@ div.skills_bar_indesign {
   margin-bottom: 2%;
   padding-bottom: 0.75%;
 }
+
+div.skills_bar_git {
+  background-color: rgb(166, 49, 210);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 60%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_bootstrap {
+  background-color: rgb(166, 49, 210);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 70%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
+div.skills_bar_react {
+  background-color: rgb(166, 49, 210);
+  font-size: 15px;
+  color: white;
+  padding-left: 0.75%;
+  width: 40%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 0.75%;
+  margin-bottom: 2%;
+  padding-bottom: 0.75%;
+}
+
 
 div.skills_bar_illustrator {
   background-color: rgb(5, 179, 156);
@@ -274,7 +317,7 @@ span.percentage {
 /* skills bar animation */
 
 
-@keyframes Animate-HTML {
+/*@keyframes Animate-HTML {
     from {
     width: 250px;
 }
@@ -298,7 +341,7 @@ to {
 }
 to {
     width: 90%}
-}
+}*/
 
 /*Professional Expertise Bars End*/
 
@@ -339,7 +382,7 @@ div.img {
   width: 100%;
   padding-top: 2%;
   padding-bottom: 8%;
-  margin: 0 auto 5% auto;
+  margin: 0 auto 3% auto;
   font-size: .9vw;
   background-color: #eee;
 }
@@ -353,13 +396,18 @@ div.expertise {
   width: 100%;
   padding-top: 2%;
   padding-bottom: 8%;
-  margin: 0 auto 12% auto;
+  margin: 0 auto 10% auto;
   font-size: .9vw;
 }
 
 span.strong {
   font-weight: 900;
   color: black;
+}
+
+span.text_description {
+  font-family: helvetica;
+  font-weight: bolder;
 }
 
 h1.contact {
@@ -394,7 +442,7 @@ padding: 10px;
 margin: auto;
 font-family: helvetica;
 font-weight: bolder;
-width: 40vw;
+width: 100%;
 }
 
 textarea {
@@ -408,6 +456,11 @@ margin: 40px auto;
 /*padding-left: auto;
 padding-right: auto;*/
 width: 39vw;
+}
+
+div.submit_button_container {
+  padding-left: auto;
+  padding-right: auto;
 }
 
 input.form_name_content {
