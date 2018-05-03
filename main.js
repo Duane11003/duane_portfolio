@@ -57,8 +57,79 @@ $(window).on("load",function() {
   }).scroll(); //invoke scroll-handler on page-load
 });
 
-// modify 'body' element so screen turns black
+// hover over work samples divs
 
-$(".img").hover(function() {
-  $(this).toggleClass("img_hover");
+// var afterHover = $(".img").hover(function() {
+//   $(this).toggleClass("img_hover");
+// };
+//
+
+
+// Hover effect
+
+$(".img1").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> 2018 Employee Giving Campaign </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(""));
+});
+
+// first box ^
+
+$(".img2").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> Child Center of New York Gala </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(""));
+});
+
+// second box ^
+
+$(".img3").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> Tree of Life Campaign </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(""));
+});
+
+// third box ^
+
+$(".img4").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> Tribute Brochure </span>"));
+
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(""));
+});
+
+$(".img5").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> Todo List App </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(""));
+});
+
+$(".img6").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> NNOWW Fitness Website </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(""));
 });

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -86,7 +86,7 @@ h2.contact_subhead {
   font-size: 1.75vh;
   text-align: center;
   color: black;
-  font-weight: bolder;
+  font-weight: normal;
 }
 
 div.header {
@@ -119,14 +119,13 @@ h1 {
 h1.hero_header {
   font-size: 82px;
   color: white;
-  font-weight: bolder;
+  font-weight: bold;
   padding-top: 12%;
 }
 
 h2.hero_header2 {
   font-size: 30px;
   color: white;
-  font-weight: bolder;
 }
 
 h3.hero_header3 {
@@ -160,7 +159,7 @@ a.contact_btn_bottom {
 
 div.work {
   background-color: white;
-  margin-top: 1%;
+  /*margin-top: 1%;*/
 }
 
 /*Professional Expertise Bars Beginning*/
@@ -314,6 +313,11 @@ span.percentage {
   font-weight: lighter;
 }
 
+span {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
 /* skills bar animation */
 
 
@@ -374,21 +378,111 @@ div.wrapper {
   margin-right: 8%;
 }
 
-div.img {
+
+/*work samples images*/
+
+div.img1 {
   width: 275px;
   height: 275px;
   padding-left: 3%;
   padding-right: 8%;
   width: 100%;
-  padding-top: 2%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 40%;
   padding-bottom: 8%;
   margin: 0 auto 3% auto;
   font-size: .9vw;
   background-color: #eee;
 }
 
+div.img2 {
+  width: 275px;
+  height: 275px;
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+div.img3 {
+  width: 275px;
+  height: 275px;
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+div.img4 {
+  width: 275px;
+  height: 275px;
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+div.img5 {
+  width: 275px;
+  height: 275px;
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 20%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+div.img6 {
+  width: 275px;
+  height: 275px;
+  padding-left: 3%;
+  padding-right: 8%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 20%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+
+
 div.img_hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
+  /*border: solid 3px rgb(225, 226, 110);*/
+
 }
 
 div.expertise {
@@ -399,7 +493,7 @@ div.expertise {
   width: 100%;
   padding-top: 2%;
   padding-bottom: 8%;
-  margin: 0 auto 10% auto;
+  margin: 0 auto 4% auto;
   font-size: .9vw;
 }
 
@@ -525,11 +619,32 @@ div.container_wrapper1 {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
 h2 {
   font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+h1.hero_header {
+  font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+h2.hero_header2 {
+  font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+h3.hero_header3 {
+  width: 35vw;
+  font-size: 15px;
+  padding: 6px;
+  }
 }
