@@ -124,12 +124,12 @@ function()
   $(this).html($(""));
 });
 
-$(".img6").hover(function() {
-  $(this).toggleClass("img_hover")
-  $(this).html($("<span> NNOWW Fitness Website </span>"));
+$("#project1").hover(function() {
+  // $(this).toggleClass("img_hover")
+  // $(this).html($("<span> NNOWW Fitness Website </span>"));
 },
 function()
 {
-  $(this).toggleClass("img_hover")
-  $(this).html($(""));
+  // $(this).toggleClass("img_hover")
+  // $(this).html($(""));
 });
