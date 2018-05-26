@@ -116,7 +116,7 @@ function()
 
 $("#webDev1").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> NNOWW Fitness Website: Website for local fitness studio. </span>"));
+  $(this).html($("<span> NNOWW Fitness: Website for local fitness studio. </span>"));
 },
 function()
 {
