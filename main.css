@@ -162,6 +162,7 @@ div.work {
   /*margin-top: 1%;*/
 }
 
+
 div.nnoww {
   background-image: url(assets/nnoww.jpg);
   background-size: cover;
@@ -208,7 +209,7 @@ div.skills_bar_indesign {
   font-size: 15px;
   color: white;
   padding-left: 0.75%;
-  width: 100%%;
+  width: 100%;
   font-family: helvetica;
   font-weight: bold;
   border-radius: 10px;
@@ -336,7 +337,12 @@ span.percentage {
 
 span {
   font-weight: lighter;
+  color: #eee;
   font-size: 18px;
+}
+
+span.test {
+  color: pink;
 }
 
 /* skills bar animation */
@@ -501,10 +507,14 @@ div.img6 {
 
 
 div.img_hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  /*border: solid 3px rgb(225, 226, 110);*/
-
+  background-color: rgba(60, 59, 59, 1);
+  text-align: center;
+  /* color: rgb(252, 214, 63); */
+  padding-top: 100px;
+  font-weight: bold;
+  background-image: none;
 }
+
 
 div.expertise {
   width: 400px;

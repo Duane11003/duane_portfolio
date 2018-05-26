@@ -114,22 +114,12 @@ function()
   $(this).html($(""));
 });
 
-$(".img5").hover(function() {
+$("#webDev1").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> Todo List App </span>"));
+  $(this).html($("<span> NNOWW Fitness Website: Website for local fitness studio. </span>"));
 },
 function()
 {
   $(this).toggleClass("img_hover")
-  $(this).html($(""));
-});
-
-$("#project1").hover(function() {
-  // $(this).toggleClass("img_hover")
-  // $(this).html($("<span> NNOWW Fitness Website </span>"));
-},
-function()
-{
-  // $(this).toggleClass("img_hover")
-  // $(this).html($(""));
+  $(this).html($(''));
 });
