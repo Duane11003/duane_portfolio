@@ -49,9 +49,9 @@ p.expertise_header {
 div.hero-content {
     margin-top: 0;
     display: block;
-    background-image: url(assets/bg.jpg);
+    background-image: url(assets/bg1.png);
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -132,7 +132,7 @@ h3.hero_header3 {
   font-size: 15px;
   color: black;
   padding: .5%;
-  width: 13%;
+  width: 250px;
   font-family: helvetica;
   border-radius: 10px;
   margin-top: 7%;
@@ -185,8 +185,7 @@ div.drs {
 
 /*Professional Expertise Bars Beginning*/
 
-div.skills_bar_photoshop {
-  background-color: rgb(5, 179, 156);
+div.skills_bar_template {
   font-size: 15px;
   color: white;
   padding-left: 0.75%;
@@ -203,91 +202,19 @@ div.skills_bar_photoshop {
   -o-animation: Animate-HTML 2s;*/
 }
 
-
-div.skills_bar_indesign {
-  background-color: rgb(5, 179, 156);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
+.blue {
+background-color: rgb(5, 179, 156);
 }
 
-div.skills_bar_git {
+.purple {
   background-color: rgb(166, 49, 210);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
-}
+  }
 
-div.skills_bar_bootstrap {
-  background-color: rgb(166, 49, 210);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
-}
-
-div.skills_bar_react {
-  background-color: rgb(166, 49, 210);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
-}
-
-
-div.skills_bar_illustrator {
-  background-color: rgb(5, 179, 156);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
-}
-
-div.skills_bar_html {
+.orange {
   background-color: rgb(243, 146, 8);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
 }
+
+
 
 .skills-Animate {
   position: relative;
@@ -296,33 +223,6 @@ div.skills_bar_html {
 
 }
 
-div.skills_bar_css {
-  background-color: rgb(243, 146, 8);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
-}
-
-div.skills_bar_javascript {
-  background-color: rgb(243, 146, 8);
-  font-size: 15px;
-  color: white;
-  padding-left: 0.75%;
-  width: 100%;
-  font-family: helvetica;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 0.75%;
-  margin-bottom: 2%;
-  padding-bottom: 0.75%;
-}
 
 div.skills_bar_container {
     background-color: #eee;
@@ -417,6 +317,7 @@ div.img1 {
   text-align: center;
   color: white;
   font-weight: bold;
+  border-radius: 20px;
   padding-top: 40%;
   padding-bottom: 8%;
   margin: 0 auto 3% auto;
@@ -432,6 +333,7 @@ div.img2 {
   width: 100%;
   text-align: center;
   color: white;
+  border-radius: 20px;
   font-weight: bold;
   padding-top: 40%;
   padding-bottom: 8%;
@@ -448,6 +350,7 @@ div.img3 {
   width: 100%;
   text-align: center;
   color: white;
+  border-radius: 20px;
   font-weight: bold;
   padding-top: 40%;
   padding-bottom: 8%;
@@ -462,6 +365,7 @@ div.img4 {
   padding-left: 3%;
   padding-right: 8%;
   width: 100%;
+  border-radius: 20px;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -512,7 +416,10 @@ div.img_hover {
   /* color: rgb(252, 214, 63); */
   padding-top: 100px;
   font-weight: bold;
+  transition: .5s;
   background-image: none;
+  border: solid 4px rgb(255,226,110);
+  margin-top: -10px;
 }
 
 
@@ -643,43 +550,28 @@ div.container_wrapper1 {
   padding-right: 10%;
 }
 
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 14px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-h2 {
-  font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-h1.hero_header {
+  h1.hero_header {
   font-size: 55px;
   }
-}
+  h2.hero_header2 {
+    font-size: 22px;
+    }
+  h3.hero_header3 {
+      width: 35vw;
+      font-size: 15px;
+      padding: 6px;
+      }
+  h2 {
+      font-size: 14px;
+      }  
+} 
 
-@media screen and (max-width: 768px) {
-h2.hero_header2 {
-  font-size: 22px;
-  }
-}
 
-@media screen and (max-width: 768px) {
-h3.hero_header3 {
-  width: 35vw;
-  font-size: 15px;
-  padding: 6px;
-  }
-}
 
 @media screen and (max-width: 480px) {
   h1.hero_header {
@@ -690,13 +582,15 @@ h3.hero_header3 {
     font-size: 17px;
     padding-left: 7%;
     margin-bottom: 4%;
-    line-height: auto;
+    line-height: 24px;
     padding-right: 7%;
-    width: 90%;
+    width: 100%;
   }
 h1.contact {
   margin-top: 7%;
   margin-bottom: 7%;
+  font-size: 24px;
+  width: 100%;
   text-align: center;
 }
 

@@ -123,3 +123,13 @@ function()
   $(this).toggleClass("img_hover")
   $(this).html($(''));
 });
+
+$("#webDev2").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> Robert Scott, Inc.: Website for interior design company </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(''));
+});
