@@ -69,7 +69,7 @@ $(window).on("load",function() {
 
 $(".img1").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> 2018 Employee Giving Campaign </span>"));
+  $(this).html($("<span> Tribute Brochure </span>"));
 },
 function()
 {
@@ -93,7 +93,7 @@ function()
 
 $(".img3").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> Tree of Life Campaign </span>"));
+  $(this).html($("<span> Annual Golf Invitation </span>"));
 },
 function()
 {
@@ -105,7 +105,7 @@ function()
 
 $(".img4").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> Tribute Brochure </span>"));
+  $(this).html($("<span> HealthFiles Newsletter </span>"));
 
 },
 function()
@@ -116,7 +116,7 @@ function()
 
 $("#webDev1").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> NNOWW Fitness: Website for local fitness studio. </span>"));
+  $(this).html($("<span> NNOWW Fitness: Website for local fitness studio. (under construction) </span>"));
 },
 function()
 {
@@ -126,7 +126,7 @@ function()
 
 $("#webDev2").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> Robert Scott, Inc.: Website for interior design company </span>"));
+  $(this).html($("<span> Robert Scott, Inc: Website for interior design company </span>"));
 },
 function()
 {

@@ -7,13 +7,13 @@ p.about-me {
     height: auto;
     padding-left: 4%;
     padding-right: 4%;
-    width: 80%;
+    width: 85%;
     padding-top: 1%;
     padding-bottom: 3%;
     margin: 0 auto;
     text-align: center;
-    font-size: 20px;
-    line-height: 2.75vh;
+    font-size: 21px;
+    line-height: 30px;
     color: rgb(121, 121, 121);
 }
 
@@ -162,6 +162,9 @@ div.work {
   /*margin-top: 1%;*/
 }
 
+/* #tribute_home {
+  background-image: url(assets/);
+} */
 
 div.nnoww {
   background-image: url(assets/nnoww.jpg);
@@ -312,6 +315,9 @@ div.img1 {
   width: 275px;
   height: 275px;
   padding-left: 3%;
+  background-image: url(assets/tribute_home_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-right: 8%;
   width: 100%;
   text-align: center;
@@ -329,6 +335,9 @@ div.img2 {
   width: 275px;
   height: 275px;
   padding-left: 3%;
+  background-image: url(assets/ccny_home_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-right: 8%;
   width: 100%;
   text-align: center;
@@ -346,6 +355,9 @@ div.img3 {
   width: 275px;
   height: 275px;
   padding-left: 3%;
+  background-image: url(assets/golf_home_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-right: 8%;
   width: 100%;
   text-align: center;
@@ -363,6 +375,9 @@ div.img4 {
   width: 275px;
   height: 275px;
   padding-left: 3%;
+  background-image: url(assets/hf_home_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-right: 8%;
   width: 100%;
   border-radius: 20px;
@@ -376,39 +391,392 @@ div.img4 {
   background-color: #eee;
 }
 
-div.img5 {
-  width: 275px;
-  height: 275px;
-  padding-left: 3%;
-  padding-right: 8%;
+
+
+div.tribute1 {
   width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/tribute_work_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
   text-align: center;
   color: white;
+  border-radius: 20px;
   font-weight: bold;
-  padding-top: 20%;
+  padding-top: 40%;
   padding-bottom: 8%;
   margin: 0 auto 3% auto;
   font-size: .9vw;
   background-color: #eee;
 }
 
-div.img6 {
-  width: 275px;
-  height: 275px;
-  padding-left: 3%;
-  padding-right: 8%;
+div.tribute2 {
   width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/tribute_work_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
   text-align: center;
   color: white;
+  border-radius: 20px;
   font-weight: bold;
-  padding-top: 20%;
+  padding-top: 40%;
   padding-bottom: 8%;
   margin: 0 auto 3% auto;
   font-size: .9vw;
   background-color: #eee;
 }
 
+div.tribute3 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/tribute_work_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
 
+div.tribute4 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/tribute_work_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+div.tribute5 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/tribute_work_5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+div.tribute6 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/tribute_work_6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+  background-color: #eee;
+}
+
+div.tribute7 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/tribute_work_7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.ccny1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/ccny_work_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.ccny2 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/ccny_work_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.ccny3 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/ccny_work_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.ccny4 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/ccny_work_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.golf1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/golf_work_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+
+div.golf2 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/golf_work_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.golf3 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/golf_work_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.golf4 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/golf_work_5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.hf1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/hf_work_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.hf2 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/hf_work_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.hf3 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/hf_work_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.hf4 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/hf_work_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.hf5 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/hf_work_5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
+
+div.hf6 {
+  width: 100%;
+  height: 100%;
+  padding-left: 3%;
+  background-image: url(assets/hf_work_6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 8%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 40%;
+  padding-bottom: 8%;
+  margin: 0 auto 3% auto;
+  font-size: .9vw;
+}
 
 div.img_hover {
   background-color: rgba(60, 59, 59, 1);
