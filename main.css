@@ -782,11 +782,15 @@ div.img_hover {
   background-color: rgba(60, 59, 59, 1);
   text-align: center;
   /* color: rgb(252, 214, 63); */
-  padding-top: 100px;
+  padding-top: 12vh;
   font-weight: bold;
-  transition: .5s;
+  -webkit-transition: background-color .5s  ease-out;
+  -moz-transition: background-color .5s  ease-out;
+  -o-transition: background-color .5s  ease-out;
+  transition: background-color .5s ease-out;
+  animation: fadein 2s;
   background-image: none;
-  border: solid 4px rgb(255,226,110);
+  border: solid 2px rgb(255,226,110);
   margin-top: -10px;
 }
 
