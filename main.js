@@ -116,7 +116,7 @@ function()
 
 $("#webDev1").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> NNOWW Fitness: Website for local fitness studio. (under construction) </span>"));
+  $(this).html($("<span> NNOWW FITNESS WEBSITE (Pending client approval)</span>"));
 },
 function()
 {
@@ -126,7 +126,7 @@ function()
 
 $("#webDev2").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> Robert Scott, Inc: Website for interior design company </span>"));
+  $(this).html($("<span> Todo List App </span>"));
 },
 function()
 {
