@@ -185,6 +185,24 @@ div.todo {
   background-repeat: no-repeat;
 }
 
+div.calculator {
+  background-image: url(assets/web_dev_4.png);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+div.color {
+  background-image: url(assets/web_dev_3.png);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
 /* div.drs {
   background-image: url(assets/drs.jpg);
   background-size: cover;

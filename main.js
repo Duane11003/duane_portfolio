@@ -133,3 +133,24 @@ function()
   $(this).toggleClass("img_hover")
   $(this).html($(''));
 });
+
+$("#webDev3").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> JavaScript Color Game </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(''));
+});
+
+$("#webDev4").hover(function() {
+  $(this).toggleClass("img_hover")
+  $(this).html($("<span> JavaScript Calculator (in process) </span>"));
+},
+function()
+{
+  $(this).toggleClass("img_hover")
+  $(this).html($(''));
+});
+
