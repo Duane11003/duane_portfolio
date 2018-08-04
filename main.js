@@ -146,7 +146,7 @@ function()
 
 $("#webDev4").hover(function() {
   $(this).toggleClass("img_hover")
-  $(this).html($("<span> JavaScript Calculator (in process) </span>"));
+  $(this).html($("<span> JavaScript Calculator</span>"));
 },
 function()
 {

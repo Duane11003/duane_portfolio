@@ -17,6 +17,26 @@ p.about-me {
     color: rgb(121, 121, 121);
 }
 
+p.links {
+  color: black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+a.footerLinks {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: rgb(225, 0, 39);
+  text-decoration: underline;
+}
+
 p.img-description {
   font-size: 15px;
   color: rgb(121, 121, 121);
